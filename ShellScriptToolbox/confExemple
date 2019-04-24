@@ -1,0 +1,8 @@
+[branche5]
+VERSION = 5
+BRANCHE = DEV
+CONTENT = Je suis très content
+
+[branche6]
+VERSION = 6
+BRANCHE = DEV_4800

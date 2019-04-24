@@ -17,11 +17,3 @@ echo $(awk '/^\['$1'\]/{f=1} f==1&&/^'$2'/{$1=$2="";print $0;exit}' $3)
 
 
 # End Functions ==================================================
-
-# Configuration file path
-conf="confExemple"
-
-# Variable -> Get [branche5]CONTENT
-variable=$(get branche5 CONTENT $conf)
-
-echo "Variable = $variable"
